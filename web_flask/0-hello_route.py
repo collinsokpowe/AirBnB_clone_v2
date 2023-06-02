@@ -1,3 +1,8 @@
+import os
+os.environ['FLASK_ENV'] = 'production'
+
+# Rest of your Flask application code
+
 from flask import Flask
 
 app = Flask(__name__)
